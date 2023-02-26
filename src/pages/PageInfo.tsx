@@ -10,28 +10,7 @@ export const PageInfo = () => {
 			<Helmet>
 				<title>{appTitle} - Info</title>
 			</Helmet>
-			<div className="content">
-				<div className="jobs">
-					<h2>{jobs.length} Jobs</h2>
-					{jobs.map(job => {
-						return (
-							<div className="job" key={job.id}>
-								<div className="title">{job.title}</div>
-							</div>
-						)
-					})}
-				</div>
-				<div className="skills">
-					<h2>{skills.length} Skills</h2>
-					{skills.map(skill => {
-						return (
-							<div className="skill" key={skill.name}>
-								<div className="item"><span className="name">{skill.name}</span> - {skill.description}</div>
-							</div>
-						)
-					})}
-				</div>
-			</div>
+			<p>This is the info page.</p>
 		</div>
 	);
 };

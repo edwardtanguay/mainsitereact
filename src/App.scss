@@ -1,3 +1,4 @@
+$version-color: #444;
 $header_color: rgb(194, 164, 107);
 
 body {
@@ -26,11 +27,43 @@ body {
 	}
 
 	.pageWelcome {
-		p {
-			font-size: 1.4rem;
-			strong {
-				color: $header_color;
-			}
+		a {
+			color: #dee096;
+		}
+
+		h1 {
+			font-size: 1.6rem;
+			margin-bottom: .5rem;
+		}
+
+		h2 {
+			font-size: 1.3rem;
+			color: #999;
+			font-weight: normal;
+			background-color: #222;
+			padding: .3rem;
+			border-radius: 5px;
+		}
+
+		li {
+			margin-bottom: .7rem;
+		}
+
+		li.sub {
+			color: lightgreen;
+			margin: 0;
+		}
+
+		.warn {
+			color: tomato;
+		}
+
+		.version {
+			color: $version-color;
+			border-top: 1px solid $version-color;
+			padding-top: 1rem;
+			margin-top: 2rem;
+			width: 10rem;
 		}
 	}
 
