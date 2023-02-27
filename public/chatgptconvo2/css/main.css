@@ -1,0 +1,40 @@
+body {
+  background-color: #222;
+  font-family: sans-serif;
+  color: #999;
+}
+body a {
+  color: rgb(225, 225, 120);
+}
+body h1 {
+  color: rgb(221, 185, 118);
+}
+body img {
+  display: block;
+}
+
+/* smartphone view */
+@media (max-width: 577px) {
+  body img {
+    width: 100%;
+  }
+  body h1 {
+    font-size: 1.1rem;
+  }
+  body p {
+    font-size: 0.8rem;
+  }
+}
+/* computer/tablet view */
+@media (min-width: 578px) {
+  body {
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  body img {
+    width: 50rem;
+  }
+  body p {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+  }
+}/*# sourceMappingURL=main.css.map */

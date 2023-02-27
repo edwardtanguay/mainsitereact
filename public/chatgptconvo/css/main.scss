@@ -1,0 +1,51 @@
+body {
+	background-color: #222;
+	font-family: sans-serif;
+	color: #999;
+
+	a {
+		color: rgb(225, 225, 120);
+	}
+
+	h1 {
+		color: rgb(221, 185, 118);
+	}
+
+	img {
+		display: block;
+	}
+
+}
+
+/* smartphone view */
+@media (max-width: 577px) {
+	body {
+		img {
+			width: 100%;
+		}
+
+		h1 {
+			font-size: 1.1rem;
+		}
+
+		p {
+			font-size: .8rem;
+		}
+	}
+}
+
+/* computer/tablet view */
+@media (min-width: 578px) {
+	body {
+		padding: 1rem 2rem 2rem 2rem;
+
+		img {
+			width: 50rem;
+		}
+
+		p {
+			font-size: 1.3rem;
+			line-height: 1.9rem;
+		}
+	}
+}
