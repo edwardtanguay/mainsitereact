@@ -108,7 +108,7 @@ export const PageWelcome = () => {
 					</a>
 				</li>
 			</ul>
-			<div className="version">version 0.5.1</div>
+			<div className="version">version 0.5.2</div>
 		</div>
 	);
 };
